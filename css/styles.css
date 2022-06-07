@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+
+    --color-red: #f03c42;
+    --color-blue: #222374;
+    --color-white: #fff;
+    --color-black: #000;
+    --bg-grey: #CCCCCC;
+}
+
+* {
+    font-family: "Open Sans";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header {
+    height: 100px;
+    background: var(--color-red);
+    color: #eee;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.namelogo {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-white);
+    padding: 40px 10px;
+
+}
+
+.logoinsta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: var(--color-white);
+    padding: 20px;
+
+}
+
+.logoinsta img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+
+}
+
+
+#ourspace {
+    width: 100%;
+    height: 418px;
+    background: var(--color-blue);
+
+
+}
+
+.meetourspace h1 {
+    font-size: 32px;
+    color: var(--color-white);
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+
+.ourspace-card {
+    width: 1200px;
+    height: 127px;
+    background-color: var(--bg-grey);
+    border-radius: 8px;
+    display: block;
+    padding: 10px;
+
+    flex-direction: column;
+    align-content: space-between;
+
+
+
+}
+
+.ourspace-card h1 {
+
+    font-size: 20;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.ourspace-card p {
+
+    font-size: 14;
+    font-weight: 400;
+}
+
+#modalities {
+    width: 100%;
+    height: 880;
+    background: var(--color-white);
+}
+
+.modalities-name h1 {
+    font-size: 32px;
+    color: var(--color-red);
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+
+.modalities-card {
+    width: 960px;
+    height: 106px;
+    background-color: var(--color-blue);
+    border-radius: 8px;
+    display: block;
+    padding: 0px 10px;
+
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.modalities-card h1 {
+
+    font-size: 20;
+    font-weight: 700;
+    padding: 10px 0px;
+    color: var(--color-white);
+}
+
+.modalities-card p {
+
+    font-size: 14;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+
+footer {
+    width: 100%;
+    height: 262px;
+    background: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+
+}
+
+.footer-instagram {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin: 20px;
+    padding : 20px:
+   
+}
+
+.footer-instagram img {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.footer-instagram p {
+    padding: 0 10px;
+}
+
+.footer-twitter {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin: 20px 0;
+    padding : 20px:
+   
+}
+
+.footer-twitter img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-twitter p {
+    padding: 0 10px;
+}
+.direitos {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-white);
+}
+.adresses {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
